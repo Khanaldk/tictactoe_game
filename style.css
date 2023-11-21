@@ -1,0 +1,177 @@
+.box1{
+    border: 2px solid black;
+    border-left: transparent;
+    border-top: transparent;
+    height:100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: red;
+}
+
+.box2{
+    border: 2px solid black;
+    border-top: transparent;
+    height:100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 2rem;
+}
+
+.box3{
+    border: 2px solid black;
+    border-right: transparent;
+    border-top: transparent;
+    height:100px;
+    color: red;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+
+.boxsecond{
+display: flex;
+justify-content: center;
+}
+
+.boxs1{
+    border: 2px solid black;
+    border-left: transparent;
+    height:100px;
+    width: 100px;
+    display: flex;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+   
+}
+
+.boxs2{
+    border: 2px solid black;
+    height:100px;
+    width: 100px;
+    display: flex;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+   
+}
+
+.boxs3{
+    border: 2px solid black;
+    border-right: transparent;
+    height:100px;
+    width: 100px;
+    display: flex;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+   
+}
+
+.boxthird{
+display: flex;
+justify-content: center;
+}
+
+.boxt1{
+    border: 2px solid black;
+    border-left: transparent;
+    color: red;
+    border-bottom: transparent;
+    height:100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.boxt2{
+    border: 2px solid black;
+    height:100px;
+    width: 100px;
+    color: red;
+    border-bottom: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+}
+
+.boxt3{
+    border: 2px solid black;
+    border-right: transparent;
+    color: red;
+    border-bottom: transparent;
+    height:100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+}
+
+.winlose{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+.playagain{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.playagain button{
+    background-color: red;
+    padding: 0.5rem 2rem;
+    border-color: transparent;
+    color: white;
+    border-radius: 0.3rem;
+}
+
+.para{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.durga{
+    color: orange;
+    font-weight: 600;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.top{
+    margin-top: -2rem;
+}
+
+.tictactoe{
+    text-align: center;
+    font-size: 1.5rem;
+}

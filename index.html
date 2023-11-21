@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tictactoe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="tictactoe">
+        <h2> Let's Play Tictactoe Game</h2>
+    </div>
+    <div class="winlose" id="win"></div>
+    <div class="winlose" id="draw"></div>
+
+    <div class="top">
+        <div class="box">
+            <div id="idbox1" onclick="clickbox1()" class="box1"></div>
+            <div id="idbox2" onclick="clickbox2()" class="box2"></div>
+            <div id="idbox3" onclick="clickbox3()" class="box3"></div>
+        </div>
+        <div class="boxsecond">
+            <div id="idbox4" onclick="clickbox4()" class="boxs1"></div>
+            <div id="idbox5" onclick="clickbox5()" class="boxs2"></div>
+            <div id="idbox6" onclick="clickbox6()" class="boxs3"></div>
+        </div>
+        <div class="boxthird">
+            <div id="idbox7" onclick="clickbox7()" class="boxt1"></div>
+            <div id="idbox8" onclick="clickbox8()" class="boxt2"></div>
+            <div id="idbox9" onclick="clickbox9()" class="boxt3"></div>
+        </div>
+    </div>
+
+    <div class="playagain">
+        <button onclick="playAgain()">Play Again</button>
+    </div>
+
+    <p class="para">Made By <span class="durga">Durga Khanal</span> </p>
+    <div class="img">
+        <img src="/image/dk3.jpg" alt="durga" height="200">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
